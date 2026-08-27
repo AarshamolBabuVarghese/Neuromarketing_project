@@ -1,0 +1,7 @@
+timestamp,category,stimulus,feature_tag,rating_1to5,reaction_time_ms,concentration_ratio,alert_triggered,multi_face_ratio,multi_face_alert_triggered,reliable_trial,valid_response,display_duration_sec,user_id,trial_id,attention_time,engagement_score,Product Features,emotion,emotion_score,gaze_x,gaze_y,Eye direction
+2026-08-27T11:22:45,Beverages,7.png,7,,,1.0,False,0.0,False,True,False,6.0,14,1081,6.0,10.0,7,NA,NA,NA,NA,NA
+2026-08-27T11:22:51,Beverages,12.jpeg,12,,,1.0,False,0.0,False,True,False,6.0,14,1082,6.0,10.0,12,NA,NA,NA,NA,NA
+2026-08-27T11:22:57,Beverages,10.png,10,,,0.5,True,0.0,False,True,False,6.0,14,1083,3.0,5.0,10,NA,NA,NA,NA,NA
+2026-08-27T11:23:04,Beverages,11.png,11,,,0.972,False,0.0,False,True,False,6.0,14,1084,5.83,9.72,11,NA,NA,NA,NA,NA
+2026-08-27T11:23:10,Beverages,13.jpeg,13,,,1.0,False,0.0,False,True,False,6.0,14,1085,6.0,10.0,13,NA,NA,NA,NA,NA
+2026-08-27T11:23:16,Beverages,8.png,8,,,1.0,False,0.0,False,True,False,6.0,14,1086,6.0,10.0,8,NA,NA,NA,NA,NA

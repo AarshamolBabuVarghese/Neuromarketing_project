@@ -1,0 +1,37 @@
+paths:
+  public_dataset: data/raw_sessions/public_dataset.csv
+  unified_dataset: data/unified_dataset_clean.csv
+  processed_dir: data/processed_sessions
+  reports_dir: reports
+  stimuli_dir: stimuli
+
+capture:
+  camera_index: 0
+  trial_duration_sec: 5      # how long each stimulus is shown / captured
+  sample_interval_sec: 0.2   # how often we sample gaze+emotion within a trial
+
+screen:
+  width: 800
+  height: 500
+  # Areas of interest (AOI) as pixel boxes: [x1, y1, x2, y2]
+  aoi:
+    "A (Left)":    [0, 0, 350, 500]
+    "C (Neutral)": [350, 0, 450, 500]
+    "B (Right)":   [450, 0, 800, 500]
+
+emotion:
+  detector_backend: opencv     # DeepFace face detector backend
+  # Maps DeepFace's dominant emotion -> the numeric emotion_score scale
+  # already used in your dataset (happy=1 ... angry=0)
+  score_map:
+    happy: 1.0
+    surprise: 0.8
+    neutral: 0.5
+    sad: 0.2
+    fear: 0.2
+    disgust: 0.1
+    angry: 0.0
+
+analysis:
+  n_clusters: 3
+  significance_level: 0.05

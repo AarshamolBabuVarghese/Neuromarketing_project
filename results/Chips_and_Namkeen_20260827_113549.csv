@@ -1,0 +1,9 @@
+timestamp,category,stimulus,feature_tag,rating_1to5,reaction_time_ms,concentration_ratio,alert_triggered,multi_face_ratio,multi_face_alert_triggered,reliable_trial,valid_response,display_duration_sec,user_id,trial_id,attention_time,engagement_score,Product Features,emotion,emotion_score,gaze_x,gaze_y,Eye direction
+2026-08-27T11:35:05,Chips & Namkeen,namkeen_1.png,namkeen_1,,,0.667,True,0.278,True,False,False,6.0,15,1087,4.0,6.67,namkeen_1,fear,0.2,374.88,225.51,C (Neutral)
+2026-08-27T11:35:12,Chips & Namkeen,4.png,4,,,0.457,True,0.057,True,True,False,6.0,15,1088,2.74,4.57,4,fear,0.2,376.24,225.27,C (Neutral)
+2026-08-27T11:35:18,Chips & Namkeen,6.png,6,,,0.972,False,0.0,False,True,False,6.0,15,1089,5.83,9.72,6,neutral,0.5,422.35,227.45,C (Neutral)
+2026-08-27T11:35:24,Chips & Namkeen,2.jpeg,2,,,1.0,False,0.0,False,True,False,6.0,15,1090,6.0,10.0,2,angry,0.0,371.35,227.3,C (Neutral)
+2026-08-27T11:35:30,Chips & Namkeen,1.jpeg,1,,,1.0,False,0.0,False,True,False,6.0,15,1091,6.0,10.0,1,angry,0.0,400.83,226.28,C (Neutral)
+2026-08-27T11:35:37,Chips & Namkeen,3.png,3,,,1.0,False,0.0,False,True,False,6.0,15,1092,6.0,10.0,3,neutral,0.5,419.28,237.18,C (Neutral)
+2026-08-27T11:35:43,Chips & Namkeen,namkeen_2.png,namkeen_2,,,1.0,False,0.0,False,True,False,6.0,15,1093,6.0,10.0,namkeen_2,happy,1.0,413.62,238.62,C (Neutral)
+2026-08-27T11:35:49,Chips & Namkeen,5.png,5,,,1.0,False,0.0,False,True,False,6.0,15,1094,6.0,10.0,5,fear,0.2,417.28,235.22,C (Neutral)

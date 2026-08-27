@@ -1,0 +1,22 @@
+# Install with: pip install -r requirements.txt
+# Tested combination for Python 3.10 (64-bit) on Windows.
+# Install in a CLEAN venv (no leftover packages) to avoid resolver conflicts.
+
+numpy==1.26.4
+protobuf==4.25.3
+
+opencv-python==4.9.0.80
+mediapipe==0.10.14
+
+tensorflow==2.15.0
+tf-keras==2.15.0
+deepface==0.0.93
+
+pandas==2.2.2
+scikit-learn==1.4.2
+scipy==1.13.0
+
+streamlit==1.35.0
+plotly==5.22.0
+python-docx==1.1.2
+pyyaml==6.0.1

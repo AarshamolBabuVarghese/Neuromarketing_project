@@ -1,0 +1,15 @@
+Requirement already satisfied: numpy==1.26.4 in ./venv/lib/python3.12/site-packages (from -r requirements.txt (line 5)) (1.26.4)
+Collecting protobuf==4.25.3 (from -r requirements.txt (line 6))
+  Obtaining dependency information for protobuf==4.25.3 from https://files.pythonhosted.org/packages/15/db/7f731524fe0e56c6b2eb57d05b55d3badd80ef7d1f1ed59db191b2fdd8ab/protobuf-4.25.3-cp37-abi3-manylinux2014_x86_64.whl.metadata
+  Using cached protobuf-4.25.3-cp37-abi3-manylinux2014_x86_64.whl.metadata (541 bytes)
+Collecting opencv-python==4.9.0.80 (from -r requirements.txt (line 8))
+  Obtaining dependency information for opencv-python==4.9.0.80 from https://files.pythonhosted.org/packages/d9/64/7fdfb9386511cd6805451e012c537073a79a958a58795c4e602e538c388c/opencv_python-4.9.0.80-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Using cached opencv_python-4.9.0.80-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (20 kB)
+Collecting mediapipe==0.10.14 (from -r requirements.txt (line 9))
+  Obtaining dependency information for mediapipe==0.10.14 from https://files.pythonhosted.org/packages/11/73/07c6dcbb322f86e2b8526e0073456dbdd2813d5351f772f882123c985fda/mediapipe-0.10.14-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata
+  Using cached mediapipe-0.10.14-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.7 kB)
+ERROR: Could not find a version that satisfies the requirement tensorflow==2.15.0 (from versions: 2.16.0rc0, 2.16.1, 2.16.2, 2.17.0rc0, 2.17.0rc1, 2.17.0, 2.17.1, 2.18.0rc0, 2.18.0rc1, 2.18.0rc2, 2.18.0, 2.18.1, 2.19.0rc0, 2.19.0, 2.19.1, 2.20.0rc0, 2.20.0, 2.21.0rc0, 2.21.0rc1, 2.21.0)
+ERROR: No matching distribution found for tensorflow==2.15.0
+
+[notice] A new release of pip is available: 23.2.1 -> 26.1.2
+[notice] To update, run: pip install --upgrade pip

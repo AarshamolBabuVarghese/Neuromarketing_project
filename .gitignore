@@ -1,0 +1,9 @@
+﻿.venv/
+venv/
+venv-1/
+.venv-2/
+__pycache__/
+*.pyc
+.DS_Store
+results/
+data/processed_sessions/session_log.csv

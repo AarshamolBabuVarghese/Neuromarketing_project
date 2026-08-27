@@ -1,0 +1,7 @@
+timestamp,category,stimulus,feature_tag,rating_1to5,reaction_time_ms,concentration_ratio,multi_face_ratio,checks_no_face,checks_multiple_faces,checks_poor_lighting,checks_too_far,checks_off_center,checks_not_looking,checks_ok,alert_triggered,multi_face_alert_triggered,reliable_trial,valid_response,display_duration_sec,user_id,trial_id,attention_time,engagement_score,Product Features,emotion,emotion_score,gaze_x,gaze_y,Eye direction
+2026-08-27T11:59:05,Beverages,8.png,8,,,0.811,0.0,0,0,0,0,0,8,29,True,False,True,False,6.0,18,1108,4.87,8.11,8,neutral,0.5,1561.65,-78.6,NA
+2026-08-27T11:59:11,Beverages,10.png,10,,,0.286,0.0,0,0,0,0,0,20,8,True,False,True,False,6.0,18,1109,1.72,2.86,10,neutral,0.5,-31.85,595.8,NA
+2026-08-27T11:59:17,Beverages,7.png,7,,,0.838,0.0,0,0,0,0,0,6,31,True,False,True,False,6.0,18,1110,5.03,8.38,7,neutral,0.5,544.43,360.82,B (Right)
+2026-08-27T11:59:23,Beverages,13.jpeg,13,,,0.972,0.0,0,0,0,0,0,1,35,True,False,True,False,6.0,18,1111,5.83,9.72,13,neutral,0.5,210.49,251.34,A (Left)
+2026-08-27T11:59:30,Beverages,12.jpeg,12,,,0.649,0.0,0,0,0,0,0,11,26,True,False,True,False,6.0,18,1112,3.89,6.49,12,neutral,0.5,237.28,442.66,A (Left)
+2026-08-27T11:59:36,Beverages,11.png,11,,,0.73,0.0,0,0,0,0,0,12,25,True,False,True,False,6.0,18,1113,4.38,7.3,11,neutral,0.5,257.12,442.09,A (Left)

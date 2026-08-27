@@ -1,0 +1,6 @@
+timestamp,category,stimulus,feature_tag,rating_1to5,reaction_time_ms,concentration_ratio,multi_face_ratio,checks_no_face,checks_multiple_faces,checks_poor_lighting,checks_too_far,checks_off_center,checks_not_looking,checks_ok,alert_triggered,multi_face_alert_triggered,reliable_trial,valid_response,display_duration_sec,user_id,trial_id,attention_time,engagement_score,Product Features,emotion,emotion_score,gaze_x,gaze_y,Eye direction
+2026-08-27T11:49:43,Biscuits & Cookies,biscuit_4.png,biscuit_4,,,1.0,0.0,0,0,0,0,0,0,37,False,False,True,False,6.0,17,1103,6.0,10.0,biscuit_4,neutral,0.5,789.41,-36.48,NA
+2026-08-27T11:49:49,Biscuits & Cookies,biscuit_2.png,biscuit_2,,,1.0,0.0,0,0,0,0,0,0,30,False,False,True,False,6.0,17,1104,6.0,10.0,biscuit_2,angry,0.0,926.54,113.01,NA
+2026-08-27T11:49:55,Biscuits & Cookies,biscuit_3.png,biscuit_3,,,1.0,0.0,0,0,0,0,0,0,37,False,False,True,False,6.0,17,1105,6.0,10.0,biscuit_3,neutral,0.5,991.26,-236.66,NA
+2026-08-27T11:50:01,Biscuits & Cookies,biscuit_1.png,biscuit_1,,,1.0,0.0,0,0,0,0,0,0,36,False,False,True,False,6.0,17,1106,6.0,10.0,biscuit_1,neutral,0.5,403.45,153.58,C (Neutral)
+2026-08-27T11:50:08,Biscuits & Cookies,biscuit_5.png,biscuit_5,,,1.0,0.0,0,0,0,0,0,0,37,False,False,True,False,6.0,17,1107,6.0,10.0,biscuit_5,neutral,0.5,255.04,273.8,A (Left)
