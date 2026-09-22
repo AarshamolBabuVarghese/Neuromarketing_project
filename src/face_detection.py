@@ -9,6 +9,19 @@ it's cheap, so it can run every frame without slowing down the
 capture loop. DeepFace / MediaPipe do their own, more accurate,
 face localization internally anyway - this module just avoids wasting
 time running heavy models on frames with no face at all.
+
+FIX (this version): Haar cascades are notoriously sensitive to
+lighting and face size. Two changes to reduce false "no face
+detected" misses:
+  1. Histogram equalization on the grayscale frame before detection --
+     evens out under/over-exposed lighting, which was likely
+     contributing to the skipped trials.
+  2. Smaller minSize + slightly relaxed minNeighbors -- accepts
+     smaller/farther faces and is a bit less strict about confirming
+     detections, trading a small amount of false-positive risk for
+     far fewer missed real faces (the participant is the only person
+     in frame, so stray false positives are low-risk here).
+---------------------------------------------------------------
 """
 import cv2
 
@@ -22,8 +35,10 @@ def detect_face(frame_bgr):
     face is found in the frame.
     """
     gray = cv2.cvtColor(frame_bgr, cv2.COLOR_BGR2GRAY)
+    gray = cv2.equalizeHist(gray)  # normalize lighting/contrast
+
     faces = _face_cascade.detectMultiScale(
-        gray, scaleFactor=1.1, minNeighbors=5, minSize=(80, 80)
+        gray, scaleFactor=1.1, minNeighbors=4, minSize=(60, 60)
     )
     if len(faces) == 0:
         return None

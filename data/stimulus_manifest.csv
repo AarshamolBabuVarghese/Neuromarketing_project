@@ -1,0 +1,32 @@
+image_filename,test_name,product_id,product_name,category,attribute_changed,product_a_name,product_b_name
+bhujia.png,bhujia_packaging_format,P001,Lemon Bhujia,namkeen,packaging_format,Lemon Bhujia Canister (Tin),Lemon Bhujia Pouch
+biscuit_1.png,biscuit_product_type,P002,NeuBisc Biscuits,biscuits,product_flavor,Dates Biscuits,NeuBisc Chocolate Cookies
+biscuit_2.png,neubisc_promo_offer,P002,NeuBisc Biscuits,biscuits,promotional_badge,With 50% Extra Free Offer,Without Extra Offer
+biscuit_3.png,choco_biscuit_format,P002,NeuBisc Biscuits,biscuits,packaging_format,Big and Bold Choco Blast Box,Choco Chip Cookies Pack
+biscuit_4.png,neuro_biscuit_info_display,P002,NeuBisc Biscuits,biscuits,product_imagery_vs_info,With Product Photos (No Weight Shown),With Net Weight 200g Shown (No Photos)
+biscuit_5.png,biscuit_pack_color,P002,NeuBisc Biscuits,biscuits,color,Blue Packaging,Orange Packaging
+cacaosymphony.png,cacaosymphony_claims,P003,Cacao Symphony,chocolate,health_claims_badges,Without Claims Badges,With Claims (Less Sugar No Artificial Colors Cocoa Rich)
+choco1.png,milk_choco_window,P004,Milk Chocolate,chocolate,packaging_transparency,No Window (Solid Pack),Transparent Product Window
+choco2.png,choco_candy_price,P005,Choco Candy,chocolate,price_discount,Rs80 Regular Price,Rs59 Discounted Price
+chocolyra.png,chocolyra_format,P006,Choco Lyra,chocolate,packaging_format,Bar Format,Pouch Format
+cocoab.png,cocoa_bliss_pack_format,P007,Cocoa Bliss,chocolate,pack_format,Single Bar 6-Section,Six Individually Wrapped Bars
+cocoabliss.png,cocoa_bliss_finish,P007,Cocoa Bliss,chocolate,packaging_finish,Matte Finish,Glossy Finish
+dark_choco.png,dark_choco_theme,P008,Dark Choco,chocolate,background_theme,Natural Rustic Theme (Beige),Premium Dark Theme (Black Gold)
+golden_crisp.png,chips_branding_level,P009,Golden Crisp Chips,chips,branding_design,Basic Salted Chips (No Branding),Golden Crisp Premium Branding
+namkeen_1.png,aloo_bhujia_format,P010,Aloo Bhujia,namkeen,packaging_format,Pouch,Box
+namkeen_2.png,chakli_packaging_material,P011,Butter Chakli,namkeen,packaging_material,Plastic Pouch (Butter Chakli),Kraft Paper Pouch (Premium Spiral Chakli)
+sliced_chips.png,sliced_chips_branding,P012,Sliced Chips,chips,color_and_branding,Premium Sliced Chips Light,Vintage Golden Crisp Dark
+tomato_treat.png,tomato_treat_claims,P013,Tomato Treat,namkeen,packaging_claims,Simple Design,With Claims (Real Tomato No Preservatives)
+wafer.png,masala_wafer_color,P014,Masala Wafer,chips,color,White Background,Blue Background
+zigzag.png,zigzag_pack_format,P015,Zigzag Snacks,namkeen,packaging_format,Pillow Pack (Flat),Stand-up Zipper Pouch
+vita_fresh.png,vitafresh_orange_transparency,P016,VitaFresh Orange,beverages,packaging_transparency,Opaque Bottle (Product Not Visible),Transparent Bottle (Product Visible)
+freshvibe.png,freshvibe_peach_name_size,P017,FreshVibe Peach,beverages,naming_and_size,"Peach Delight, 500ml","Peach Sparkle, 330ml"
+instant_food_1.png,poha_packaging_format,P018,Neuinsta Poha (3 Minute Breakfast),instant_food,packaging_format,Pouch Pack,Box Pack
+instant_food_2.png,geki_ramen_color,P019,Neuinsta Geki Spicy Chicken Ramen,instant_food,color,Black/Orange Packaging,Light Blue Packaging
+instant_food_3.png,dal_makhani_imagery_layout,P020,Neuinsta Minute Khana Dal Makhani,instant_food,product_imagery_layout,Large Bowl Image with Spoon (Left Side),Small Bowl Image Top-Right (No Spoon)
+instant_food_4.png,schezwan_logo_style,P021,Neuinsta Schezwan Instant Noodles,instant_food,branding_design,Bold Shadowed Logo Text,Flat Outline Logo Text
+instant_food_5.png,upma_tagline_text,P022,Neuinsta Vegetable Upma (3 Minute Breakfast),instant_food,product_tagline,3 Minute Breakfast,Fast Breakfast
+juice3.png,apple_juice_brand_redesign,P023,Apple Juice,beverages,overall_packaging_redesign,Nature's Goodness - Plastic Bottle 500ml From Concentrate,Orchard Select - Glass Bottle 750ml Not From Concentrate
+juice4.png,orange_juice_price_discount,P024,100% Pure Orange Juice (32oz),beverages,price_discount,Rs60 Regular Price (No Discount Shown),Rs60 Struck-through Discounted to Rs45
+juice5.png,orange_juice_price_visibility,P025,Orange Juice (Generic),beverages,price_display,No Price Shown on Pack,Rs49 Price Tag Shown on Pack
+mango_juice.png,mango_juice_full_redesign,P026,Mango Juice,beverages,overall_packaging_redesign,Minimal White Label (No Imagery No Claims),Vibrant Colorful Label with Fruit Imagery and Claims Badges

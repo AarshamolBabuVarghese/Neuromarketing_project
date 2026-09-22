@@ -20,7 +20,7 @@ screen:
     "B (Right)":   [450, 0, 800, 500]
 
 emotion:
-  detector_backend: opencv     # DeepFace face detector backend
+  detector_backend: retinaface    # DeepFace face detector backend
   # Maps DeepFace's dominant emotion -> the numeric emotion_score scale
   # already used in your dataset (happy=1 ... angry=0)
   score_map:

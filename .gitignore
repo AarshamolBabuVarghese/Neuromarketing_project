@@ -7,3 +7,5 @@ __pycache__/
 .DS_Store
 results/
 data/processed_sessions/session_log.csv
+venv_dashboard/
+.env

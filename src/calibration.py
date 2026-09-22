@@ -11,9 +11,20 @@ and records the RAW eye-ratio while the participant looks at each dot.
 It then fits a simple linear mapping: raw ratio -> actual screen pixel.
 
 Run once per participant, before their first trial:
-    python -m src.calibration --user_id 5
+    python src/calibration.py --user_id 5
 
 Saves: data/processed_sessions/calibration_<user_id>.json
+---------------------------------------------------------------
+FIX (this version): added the same horizontal mirror flip that
+capture_pipeline.py applies to real trial frames. Without this,
+calibration was fit in the UNFLIPPED coordinate space while actual
+trials ran in the FLIPPED space -- the two didn't agree, so gaze
+mapping stayed wrong even after the capture_pipeline fix.
+
+IMPORTANT: any calibration file saved before this fix is now stale.
+Delete old files in data/processed_sessions/calibration_*.json and
+re-run calibration for every participant after applying this.
+---------------------------------------------------------------
 """
 import argparse
 import json
@@ -48,13 +59,29 @@ def run_calibration(user_id):
     if not cap.isOpened():
         raise RuntimeError("Could not open webcam for calibration.")
 
-    cv2.namedWindow("Calibration", cv2.WND_PROP_FULLSCREEN)
+    # Warm-up, same reasoning as capture_pipeline.py: a freshly opened
+    # camera's first frames are often under-exposed/unfocused.
+    for _ in range(15):
+        cap.read()
+        time.sleep(0.03)
+
+    cv2.namedWindow("Calibration", cv2.WINDOW_NORMAL)
     cv2.setWindowProperty("Calibration", cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
+    try:
+        cv2.setWindowProperty("Calibration", cv2.WND_PROP_TOPMOST, 1)
+    except cv2.error:
+        pass
+    cv2.moveWindow("Calibration", 0, 0)
+
+    print("If you don't see a red dot in a second, check your taskbar — "
+          "the calibration window may have opened behind this terminal. "
+          "Alt-Tab to it.\n")
 
     screen_pts, ratio_pts = [], []
 
-    for fx, fy in _POINTS:
+    for point_num, (fx, fy) in enumerate(_POINTS, 1):
         sx, sy = int(fx * _SCREEN_W), int(fy * _SCREEN_H)
+        print(f"Point {point_num}/{len(_POINTS)}: showing dot at ({sx}, {sy})...")
         samples = []
         start = time.time()
 
@@ -62,6 +89,11 @@ def run_calibration(user_id):
             ok, frame = cap.read()
             if not ok:
                 continue
+
+            # MIRROR FIX: must match capture_pipeline.py exactly, or the
+            # calibration mapping and real trials are in different
+            # coordinate spaces.
+            frame = cv2.flip(frame, 1)
 
             canvas = np.zeros((_SCREEN_H, _SCREEN_W, 3), dtype="uint8")
             cv2.circle(canvas, (sx, sy), 15, (0, 0, 255), -1)
@@ -78,6 +110,7 @@ def run_calibration(user_id):
             avg_ratio = tuple(np.mean(samples, axis=0))
             ratio_pts.append(avg_ratio)
             screen_pts.append((sx, sy))
+            print(f"  -> captured {len(samples)} samples.")
         else:
             print(f"  Warning: no eyes detected for calibration point ({sx},{sy}) - skipping.")
 
