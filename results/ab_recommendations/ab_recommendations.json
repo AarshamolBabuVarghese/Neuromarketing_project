@@ -1,0 +1,949 @@
+[
+  {
+    "product_feature": "Milk Chocolate_packaging_transparency",
+    "winner_variant": "B",
+    "winner_value": "Transparent Product Window",
+    "n_a": 2,
+    "n_b": 2,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 1.15,
+        "mean_b": 3.102,
+        "p_value": 0.489,
+        "significant": false,
+        "better_variant": null
+      },
+      "emotion_score": {
+        "mean_a": 0.15,
+        "mean_b": 0.602,
+        "p_value": 0.024,
+        "significant": true,
+        "better_variant": "B"
+      },
+      "attention_time": {
+        "mean_a": 1.0,
+        "mean_b": 2.5,
+        "p_value": 0.5724,
+        "significant": false,
+        "better_variant": null
+      }
+    },
+    "composite_confidence": "Medium",
+    "recommendation": "For 'Milk Chocolate_packaging_transparency' \u2014 'Transparent Product Window' outperformed the alternative. Medium confidence \u2014 significant on: emotion score (0.15 vs 0.602, p=0.024).",
+    "product_id": "P004",
+    "product_name": "Milk Chocolate",
+    "category": "chocolate",
+    "attribute_changed": "packaging_transparency",
+    "leaning_variant": "B",
+    "leaning_value": "Transparent Product Window",
+    "n_needed_estimate": null
+  },
+  {
+    "product_feature": "100% Pure Orange Juice (32oz)_price_discount",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 2,
+    "n_b": 1,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 1.133,
+        "mean_b": 2.545,
+        "note": "insufficient samples (n_a=2, n_b=1, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.533,
+        "mean_b": 0.345,
+        "note": "insufficient samples (n_a=2, n_b=1, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 0.6,
+        "mean_b": 2.2,
+        "note": "insufficient samples (n_a=2, n_b=1, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'100% Pure Orange Juice (32oz)_price_discount': not statistically significant yet (n_a=2, n_b=1). Currently trending toward 'Rs60 Struck-through Discounted to Rs45' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P024",
+    "product_name": "100% Pure Orange Juice (32oz)",
+    "category": "beverages",
+    "attribute_changed": "price_discount",
+    "leaning_variant": "B",
+    "leaning_value": "Rs60 Struck-through Discounted to Rs45",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "Aloo Bhujia_packaging_format",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 0,
+    "n_b": 0,
+    "metric_results": {},
+    "composite_confidence": "Low",
+    "recommendation": "'Aloo Bhujia_packaging_format': only one variant has data so far \u2014 need both A and B represented.",
+    "product_id": "P010",
+    "product_name": "Aloo Bhujia",
+    "category": "namkeen",
+    "attribute_changed": "packaging_format",
+    "leaning_variant": null,
+    "leaning_value": null,
+    "n_needed_estimate": null
+  },
+  {
+    "product_feature": "Apple Juice_overall_packaging_redesign",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 2,
+    "n_b": 1,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 2.678,
+        "mean_b": 1.1,
+        "note": "insufficient samples (n_a=2, n_b=1, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.678,
+        "mean_b": 0.5,
+        "note": "insufficient samples (n_a=2, n_b=1, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 2.0,
+        "mean_b": 0.6,
+        "note": "insufficient samples (n_a=2, n_b=1, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'Apple Juice_overall_packaging_redesign': not statistically significant yet (n_a=2, n_b=1). Currently trending toward 'Nature's Goodness - Plastic Bottle 500ml From Concentrate' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P023",
+    "product_name": "Apple Juice",
+    "category": "beverages",
+    "attribute_changed": "overall_packaging_redesign",
+    "leaning_variant": "A",
+    "leaning_value": "Nature's Goodness - Plastic Bottle 500ml From Concentrate",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "Butter Chakli_packaging_material",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 0,
+    "n_b": 0,
+    "metric_results": {},
+    "composite_confidence": "Low",
+    "recommendation": "'Butter Chakli_packaging_material': only one variant has data so far \u2014 need both A and B represented.",
+    "product_id": "P011",
+    "product_name": "Butter Chakli",
+    "category": "namkeen",
+    "attribute_changed": "packaging_material",
+    "leaning_variant": null,
+    "leaning_value": null,
+    "n_needed_estimate": null
+  },
+  {
+    "product_feature": "Cacao Symphony_health_claims_badges",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 1,
+    "n_b": 1,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 1.712,
+        "mean_b": 4.133,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.112,
+        "mean_b": 0.533,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 1.6,
+        "mean_b": 3.6,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'Cacao Symphony_health_claims_badges': not statistically significant yet (n_a=1, n_b=1). Currently trending toward 'With Claims (Less Sugar No Artificial Colors Cocoa Rich)' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P003",
+    "product_name": "Cacao Symphony",
+    "category": "chocolate",
+    "attribute_changed": "health_claims_badges",
+    "leaning_variant": "B",
+    "leaning_value": "With Claims (Less Sugar No Artificial Colors Cocoa Rich)",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "Choco Candy_price_discount",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 1,
+    "n_b": 2,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 1.911,
+        "mean_b": 2.57,
+        "note": "insufficient samples (n_a=1, n_b=2, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.111,
+        "mean_b": 0.37,
+        "note": "insufficient samples (n_a=1, n_b=2, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 1.8,
+        "mean_b": 2.2,
+        "note": "insufficient samples (n_a=1, n_b=2, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'Choco Candy_price_discount': not statistically significant yet (n_a=1, n_b=2). Currently trending toward 'Rs59 Discounted Price' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P005",
+    "product_name": "Choco Candy",
+    "category": "chocolate",
+    "attribute_changed": "price_discount",
+    "leaning_variant": "B",
+    "leaning_value": "Rs59 Discounted Price",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "Choco Lyra_packaging_format",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 2,
+    "n_b": 2,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 1.5,
+        "mean_b": 0.95,
+        "p_value": 0.5271,
+        "significant": false,
+        "better_variant": null
+      },
+      "emotion_score": {
+        "mean_a": 0.6,
+        "mean_b": 0.45,
+        "p_value": 0.3499,
+        "significant": false,
+        "better_variant": null
+      },
+      "attention_time": {
+        "mean_a": 0.9,
+        "mean_b": 0.5,
+        "p_value": 0.5685,
+        "significant": false,
+        "better_variant": null
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'Choco Lyra_packaging_format': not statistically significant yet (n_a=2, n_b=2). Currently trending toward 'Bar Format' \u2014 too early to act on. Collect roughly 18 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P006",
+    "product_name": "Choco Lyra",
+    "category": "chocolate",
+    "attribute_changed": "packaging_format",
+    "leaning_variant": "A",
+    "leaning_value": "Bar Format",
+    "n_needed_estimate": 18
+  },
+  {
+    "product_feature": "Cocoa Bliss_pack_format",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 2,
+    "n_b": 1,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 1.998,
+        "mean_b": 3.888,
+        "note": "insufficient samples (n_a=2, n_b=1, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.498,
+        "mean_b": 0.488,
+        "note": "insufficient samples (n_a=2, n_b=1, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 1.5,
+        "mean_b": 3.4,
+        "note": "insufficient samples (n_a=2, n_b=1, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'Cocoa Bliss_pack_format': not statistically significant yet (n_a=2, n_b=1). Currently trending toward 'Six Individually Wrapped Bars' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P007",
+    "product_name": "Cocoa Bliss",
+    "category": "chocolate",
+    "attribute_changed": "pack_format",
+    "leaning_variant": "B",
+    "leaning_value": "Six Individually Wrapped Bars",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "Cocoa Bliss_packaging_finish",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 1,
+    "n_b": 1,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 3.485,
+        "mean_b": 2.74,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.885,
+        "mean_b": 0.74,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 2.6,
+        "mean_b": 2.0,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'Cocoa Bliss_packaging_finish': not statistically significant yet (n_a=1, n_b=1). Currently trending toward 'Matte Finish' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P007",
+    "product_name": "Cocoa Bliss",
+    "category": "chocolate",
+    "attribute_changed": "packaging_finish",
+    "leaning_variant": "A",
+    "leaning_value": "Matte Finish",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "Dark Choco_background_theme",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 1,
+    "n_b": 1,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 3.8,
+        "mean_b": 3.647,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.8,
+        "mean_b": 0.647,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 3.0,
+        "mean_b": 3.0,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'Dark Choco_background_theme': not statistically significant yet (n_a=1, n_b=1). Currently trending toward 'Natural Rustic Theme (Beige)' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P008",
+    "product_name": "Dark Choco",
+    "category": "chocolate",
+    "attribute_changed": "background_theme",
+    "leaning_variant": "A",
+    "leaning_value": "Natural Rustic Theme (Beige)",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "FreshVibe Peach_naming_and_size",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 2,
+    "n_b": 1,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 2.223,
+        "mean_b": 1.4,
+        "note": "insufficient samples (n_a=2, n_b=1, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.723,
+        "mean_b": 0.6,
+        "note": "insufficient samples (n_a=2, n_b=1, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 1.5,
+        "mean_b": 0.8,
+        "note": "insufficient samples (n_a=2, n_b=1, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'FreshVibe Peach_naming_and_size': not statistically significant yet (n_a=2, n_b=1). Currently trending toward 'Peach Delight, 500ml' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P017",
+    "product_name": "FreshVibe Peach",
+    "category": "beverages",
+    "attribute_changed": "naming_and_size",
+    "leaning_variant": "A",
+    "leaning_value": "Peach Delight, 500ml",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "Golden Crisp Chips_branding_design",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 1,
+    "n_b": 1,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 2.9,
+        "mean_b": 0.7,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.9,
+        "mean_b": 0.5,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 2.0,
+        "mean_b": 0.2,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'Golden Crisp Chips_branding_design': not statistically significant yet (n_a=1, n_b=1). Currently trending toward 'Basic Salted Chips (No Branding)' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P009",
+    "product_name": "Golden Crisp Chips",
+    "category": "chips",
+    "attribute_changed": "branding_design",
+    "leaning_variant": "A",
+    "leaning_value": "Basic Salted Chips (No Branding)",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "Lemon Bhujia_packaging_format",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 1,
+    "n_b": 1,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 1.6,
+        "mean_b": 1.857,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.4,
+        "mean_b": 0.457,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 1.2,
+        "mean_b": 1.4,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'Lemon Bhujia_packaging_format': not statistically significant yet (n_a=1, n_b=1). Currently trending toward 'Lemon Bhujia Pouch' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P001",
+    "product_name": "Lemon Bhujia",
+    "category": "namkeen",
+    "attribute_changed": "packaging_format",
+    "leaning_variant": "B",
+    "leaning_value": "Lemon Bhujia Pouch",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "Mango Juice_overall_packaging_redesign",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 0,
+    "n_b": 0,
+    "metric_results": {},
+    "composite_confidence": "Low",
+    "recommendation": "'Mango Juice_overall_packaging_redesign': only one variant has data so far \u2014 need both A and B represented.",
+    "product_id": "P026",
+    "product_name": "Mango Juice",
+    "category": "beverages",
+    "attribute_changed": "overall_packaging_redesign",
+    "leaning_variant": null,
+    "leaning_value": null,
+    "n_needed_estimate": null
+  },
+  {
+    "product_feature": "Masala Wafer_color",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 0,
+    "n_b": 0,
+    "metric_results": {},
+    "composite_confidence": "Low",
+    "recommendation": "'Masala Wafer_color': only one variant has data so far \u2014 need both A and B represented.",
+    "product_id": "P014",
+    "product_name": "Masala Wafer",
+    "category": "chips",
+    "attribute_changed": "color",
+    "leaning_variant": null,
+    "leaning_value": null,
+    "n_needed_estimate": null
+  },
+  {
+    "product_feature": "NeuBisc Biscuits_color",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 5,
+    "n_b": 3,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 1.442,
+        "mean_b": 2.446,
+        "p_value": 0.4988,
+        "significant": false,
+        "better_variant": null
+      },
+      "emotion_score": {
+        "mean_a": 0.482,
+        "mean_b": 0.513,
+        "p_value": 0.7742,
+        "significant": false,
+        "better_variant": null
+      },
+      "attention_time": {
+        "mean_a": 0.96,
+        "mean_b": 1.933,
+        "p_value": 0.5187,
+        "significant": false,
+        "better_variant": null
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'NeuBisc Biscuits_color': not statistically significant yet (n_a=5, n_b=3). Currently trending toward 'Orange Packaging' \u2014 too early to act on. Collect roughly 17 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P002",
+    "product_name": "NeuBisc Biscuits",
+    "category": "biscuits",
+    "attribute_changed": "color",
+    "leaning_variant": "B",
+    "leaning_value": "Orange Packaging",
+    "n_needed_estimate": 17
+  },
+  {
+    "product_feature": "NeuBisc Biscuits_packaging_format",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 4,
+    "n_b": 1,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 1.487,
+        "mean_b": 4.723,
+        "note": "insufficient samples (n_a=4, n_b=1, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.637,
+        "mean_b": 0.323,
+        "note": "insufficient samples (n_a=4, n_b=1, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 0.85,
+        "mean_b": 4.4,
+        "note": "insufficient samples (n_a=4, n_b=1, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'NeuBisc Biscuits_packaging_format': not statistically significant yet (n_a=4, n_b=1). Currently trending toward 'Choco Chip Cookies Pack' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P002",
+    "product_name": "NeuBisc Biscuits",
+    "category": "biscuits",
+    "attribute_changed": "packaging_format",
+    "leaning_variant": "B",
+    "leaning_value": "Choco Chip Cookies Pack",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "NeuBisc Biscuits_product_flavor",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 3,
+    "n_b": 2,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 1.086,
+        "mean_b": 2.45,
+        "p_value": 0.6253,
+        "significant": false,
+        "better_variant": null
+      },
+      "emotion_score": {
+        "mean_a": 0.486,
+        "mean_b": 0.35,
+        "p_value": 0.5311,
+        "significant": false,
+        "better_variant": null
+      },
+      "attention_time": {
+        "mean_a": 0.6,
+        "mean_b": 2.1,
+        "p_value": 0.5724,
+        "significant": false,
+        "better_variant": null
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'NeuBisc Biscuits_product_flavor': not statistically significant yet (n_a=3, n_b=2). Currently trending toward 'NeuBisc Chocolate Cookies' \u2014 too early to act on. Collect roughly 18 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P002",
+    "product_name": "NeuBisc Biscuits",
+    "category": "biscuits",
+    "attribute_changed": "product_flavor",
+    "leaning_variant": "B",
+    "leaning_value": "NeuBisc Chocolate Cookies",
+    "n_needed_estimate": 18
+  },
+  {
+    "product_feature": "NeuBisc Biscuits_product_imagery_vs_info",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 4,
+    "n_b": 2,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 1.128,
+        "mean_b": 2.365,
+        "p_value": 0.5524,
+        "significant": false,
+        "better_variant": null
+      },
+      "emotion_score": {
+        "mean_a": 0.328,
+        "mean_b": 0.465,
+        "p_value": 0.2066,
+        "significant": false,
+        "better_variant": null
+      },
+      "attention_time": {
+        "mean_a": 0.8,
+        "mean_b": 1.9,
+        "p_value": 0.5959,
+        "significant": false,
+        "better_variant": null
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'NeuBisc Biscuits_product_imagery_vs_info': not statistically significant yet (n_a=4, n_b=2). Currently trending toward 'With Net Weight 200g Shown (No Photos)' \u2014 too early to act on. Collect roughly 18 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P002",
+    "product_name": "NeuBisc Biscuits",
+    "category": "biscuits",
+    "attribute_changed": "product_imagery_vs_info",
+    "leaning_variant": "B",
+    "leaning_value": "With Net Weight 200g Shown (No Photos)",
+    "n_needed_estimate": 18
+  },
+  {
+    "product_feature": "NeuBisc Biscuits_promotional_badge",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 5,
+    "n_b": 4,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 1.199,
+        "mean_b": 2.182,
+        "p_value": 0.386,
+        "significant": false,
+        "better_variant": null
+      },
+      "emotion_score": {
+        "mean_a": 0.439,
+        "mean_b": 0.632,
+        "p_value": 0.1459,
+        "significant": false,
+        "better_variant": null
+      },
+      "attention_time": {
+        "mean_a": 0.76,
+        "mean_b": 1.55,
+        "p_value": 0.472,
+        "significant": false,
+        "better_variant": null
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'NeuBisc Biscuits_promotional_badge': not statistically significant yet (n_a=5, n_b=4). Currently trending toward 'Without Extra Offer' \u2014 too early to act on. Collect roughly 16 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P002",
+    "product_name": "NeuBisc Biscuits",
+    "category": "biscuits",
+    "attribute_changed": "promotional_badge",
+    "leaning_variant": "B",
+    "leaning_value": "Without Extra Offer",
+    "n_needed_estimate": 16
+  },
+  {
+    "product_feature": "Neuinsta Geki Spicy Chicken Ramen_color",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 1,
+    "n_b": 1,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 4.284,
+        "mean_b": 1.0,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.484,
+        "mean_b": 0.6,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 3.8,
+        "mean_b": 0.4,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'Neuinsta Geki Spicy Chicken Ramen_color': not statistically significant yet (n_a=1, n_b=1). Currently trending toward 'Black/Orange Packaging' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P019",
+    "product_name": "Neuinsta Geki Spicy Chicken Ramen",
+    "category": "instant_food",
+    "attribute_changed": "color",
+    "leaning_variant": "A",
+    "leaning_value": "Black/Orange Packaging",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "Neuinsta Minute Khana Dal Makhani_product_imagery_layout",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 1,
+    "n_b": 2,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 4.253,
+        "mean_b": 1.555,
+        "note": "insufficient samples (n_a=1, n_b=2, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.453,
+        "mean_b": 0.355,
+        "note": "insufficient samples (n_a=1, n_b=2, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 3.8,
+        "mean_b": 1.2,
+        "note": "insufficient samples (n_a=1, n_b=2, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'Neuinsta Minute Khana Dal Makhani_product_imagery_layout': not statistically significant yet (n_a=1, n_b=2). Currently trending toward 'Large Bowl Image with Spoon (Left Side)' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P020",
+    "product_name": "Neuinsta Minute Khana Dal Makhani",
+    "category": "instant_food",
+    "attribute_changed": "product_imagery_layout",
+    "leaning_variant": "A",
+    "leaning_value": "Large Bowl Image with Spoon (Left Side)",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "Neuinsta Poha (3 Minute Breakfast)_packaging_format",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 0,
+    "n_b": 0,
+    "metric_results": {},
+    "composite_confidence": "Low",
+    "recommendation": "'Neuinsta Poha (3 Minute Breakfast)_packaging_format': only one variant has data so far \u2014 need both A and B represented.",
+    "product_id": "P018",
+    "product_name": "Neuinsta Poha (3 Minute Breakfast)",
+    "category": "instant_food",
+    "attribute_changed": "packaging_format",
+    "leaning_variant": null,
+    "leaning_value": null,
+    "n_needed_estimate": null
+  },
+  {
+    "product_feature": "Neuinsta Schezwan Instant Noodles_branding_design",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 1,
+    "n_b": 1,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 3.947,
+        "mean_b": 3.064,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.547,
+        "mean_b": 0.864,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 3.4,
+        "mean_b": 2.2,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'Neuinsta Schezwan Instant Noodles_branding_design': not statistically significant yet (n_a=1, n_b=1). Currently trending toward 'Bold Shadowed Logo Text' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P021",
+    "product_name": "Neuinsta Schezwan Instant Noodles",
+    "category": "instant_food",
+    "attribute_changed": "branding_design",
+    "leaning_variant": "A",
+    "leaning_value": "Bold Shadowed Logo Text",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "Neuinsta Vegetable Upma (3 Minute Breakfast)_product_tagline",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 1,
+    "n_b": 2,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 0.7,
+        "mean_b": 3.524,
+        "note": "insufficient samples (n_a=1, n_b=2, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.5,
+        "mean_b": 0.324,
+        "note": "insufficient samples (n_a=1, n_b=2, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 0.2,
+        "mean_b": 3.2,
+        "note": "insufficient samples (n_a=1, n_b=2, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'Neuinsta Vegetable Upma (3 Minute Breakfast)_product_tagline': not statistically significant yet (n_a=1, n_b=2). Currently trending toward 'Fast Breakfast' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P022",
+    "product_name": "Neuinsta Vegetable Upma (3 Minute Breakfast)",
+    "category": "instant_food",
+    "attribute_changed": "product_tagline",
+    "leaning_variant": "B",
+    "leaning_value": "Fast Breakfast",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "Orange Juice (Generic)_price_display",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 1,
+    "n_b": 1,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 4.242,
+        "mean_b": 1.333,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.442,
+        "mean_b": 0.733,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 3.8,
+        "mean_b": 0.6,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'Orange Juice (Generic)_price_display': not statistically significant yet (n_a=1, n_b=1). Currently trending toward 'No Price Shown on Pack' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P025",
+    "product_name": "Orange Juice (Generic)",
+    "category": "beverages",
+    "attribute_changed": "price_display",
+    "leaning_variant": "A",
+    "leaning_value": "No Price Shown on Pack",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "Sliced Chips_color_and_branding",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 0,
+    "n_b": 0,
+    "metric_results": {},
+    "composite_confidence": "Low",
+    "recommendation": "'Sliced Chips_color_and_branding': only one variant has data so far \u2014 need both A and B represented.",
+    "product_id": "P012",
+    "product_name": "Sliced Chips",
+    "category": "chips",
+    "attribute_changed": "color_and_branding",
+    "leaning_variant": null,
+    "leaning_value": null,
+    "n_needed_estimate": null
+  },
+  {
+    "product_feature": "Tomato Treat_packaging_claims",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 1,
+    "n_b": 1,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 3.155,
+        "mean_b": 2.2,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.955,
+        "mean_b": 1.0,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 2.2,
+        "mean_b": 1.2,
+        "note": "insufficient samples (n_a=1, n_b=1, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'Tomato Treat_packaging_claims': not statistically significant yet (n_a=1, n_b=1). Currently trending toward 'Simple Design' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P013",
+    "product_name": "Tomato Treat",
+    "category": "namkeen",
+    "attribute_changed": "packaging_claims",
+    "leaning_variant": "A",
+    "leaning_value": "Simple Design",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "VitaFresh Orange_packaging_transparency",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 3,
+    "n_b": 1,
+    "metric_results": {
+      "engagement_score": {
+        "mean_a": 1.535,
+        "mean_b": 0.9,
+        "note": "insufficient samples (n_a=3, n_b=1, need >=2 each)"
+      },
+      "emotion_score": {
+        "mean_a": 0.602,
+        "mean_b": 0.5,
+        "note": "insufficient samples (n_a=3, n_b=1, need >=2 each)"
+      },
+      "attention_time": {
+        "mean_a": 0.933,
+        "mean_b": 0.4,
+        "note": "insufficient samples (n_a=3, n_b=1, need >=2 each)"
+      }
+    },
+    "composite_confidence": "Low",
+    "recommendation": "'VitaFresh Orange_packaging_transparency': not statistically significant yet (n_a=3, n_b=1). Currently trending toward 'Opaque Bottle (Product Not Visible)' \u2014 too early to act on. Collect roughly 19 more participant(s) on this test to reach a reliable read.",
+    "product_id": "P016",
+    "product_name": "VitaFresh Orange",
+    "category": "beverages",
+    "attribute_changed": "packaging_transparency",
+    "leaning_variant": "A",
+    "leaning_value": "Opaque Bottle (Product Not Visible)",
+    "n_needed_estimate": 19
+  },
+  {
+    "product_feature": "Zigzag Snacks_packaging_format",
+    "winner_variant": "No clear winner",
+    "winner_value": null,
+    "n_a": 0,
+    "n_b": 0,
+    "metric_results": {},
+    "composite_confidence": "Low",
+    "recommendation": "'Zigzag Snacks_packaging_format': only one variant has data so far \u2014 need both A and B represented.",
+    "product_id": "P015",
+    "product_name": "Zigzag Snacks",
+    "category": "namkeen",
+    "attribute_changed": "packaging_format",
+    "leaning_variant": null,
+    "leaning_value": null,
+    "n_needed_estimate": null
+  }
+]
