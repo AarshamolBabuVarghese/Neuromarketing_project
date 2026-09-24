@@ -1,50 +1,51 @@
 {
   "descriptive_stats": {
-    "n_trials": 1052,
-    "n_participants": 645,
+    "n_trials": 185,
+    "n_participants": 25,
     "emotion_distribution": {
-      "surprise": 0.213,
-      "happy": 0.207,
-      "angry": 0.203,
-      "neutral": 0.197,
-      "sad": 0.18
+      "neutral": 0.551,
+      "happy": 0.238,
+      "sad": 0.097,
+      "angry": 0.076,
+      "fear": 0.022,
+      "surprise": 0.016
     },
-    "avg_engagement_score": 3.594,
-    "avg_attention_time": 3.084,
+    "avg_engagement_score": 2.131,
+    "avg_attention_time": 1.606,
     "engagement_by_stimulus": {
-      "A (Left)": 4.459,
-      "B (Right)": 3.897,
-      "C (Neutral)": 5.5
+      "A": 2.04,
+      "B": 2.394,
+      "C": 2.781
     },
     "attention_by_stimulus": {
-      "A (Left)": 3.78,
-      "B (Right)": 3.4,
-      "C (Neutral)": 5.0
+      "A": 1.519,
+      "B": 1.879,
+      "C": 2.244
     }
   },
   "segmentation": {
     "n_clusters": 3,
     "segment_profiles": {
       "0": {
-        "avg_emotion_score": 0.56,
-        "avg_attention_time": 4.045,
-        "avg_engagement_score": 4.605
+        "avg_emotion_score": 0.398,
+        "avg_attention_time": 0.464,
+        "avg_engagement_score": 0.862
       },
       "1": {
-        "avg_emotion_score": 0.143,
-        "avg_attention_time": 2.296,
-        "avg_engagement_score": 2.439
+        "avg_emotion_score": 0.537,
+        "avg_attention_time": 2.322,
+        "avg_engagement_score": 2.859
       },
       "2": {
-        "avg_emotion_score": 0.814,
-        "avg_attention_time": 2.366,
-        "avg_engagement_score": 3.181
+        "avg_emotion_score": 0.621,
+        "avg_attention_time": 0.462,
+        "avg_engagement_score": 1.083
       }
     },
     "segment_sizes": {
-      "0": 253,
-      "1": 198,
-      "2": 194
+      "2": 10,
+      "0": 8,
+      "1": 7
     }
   }
 }
