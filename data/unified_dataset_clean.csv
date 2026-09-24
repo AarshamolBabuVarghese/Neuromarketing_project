@@ -165,3 +165,22 @@ user_id,emotion,trial_id,gaze_x,gaze_y,attention_time,emotion_score,engagement_s
 128,neutral,1283,716.47,939.88,1.0,0.6666666666666666,1.666667,100% Pure Orange Juice (32oz)_price_discount,NA
 128,happy,1284,903.65,1219.21,0.8,0.75,1.55,Orange Juice (Generic)_price_display,NA
 128,sad,1285,332.9,736.71,1.0,0.3,1.3,Mango Juice_overall_packaging_redesign,NA
+128,angry,1286,437.44,114.2,1.6,0.0,1.6,Golden Crisp Chips_branding_design,C
+128,neutral,1287,503.24,212.36,1.0,0.33999999999999997,1.34,VitaFresh Orange_packaging_transparency,B
+128,neutral,1288,692.7,514.03,2.4,0.44000000000000006,2.84,FreshVibe Peach_naming_and_size,B
+128,neutral,1289,558.23,454.91,2.4,0.5599999999999999,2.96,Apple Juice_overall_packaging_redesign,A
+128,surprise,1290,502.13,470.81,2.4,0.68,3.08,100% Pure Orange Juice (32oz)_price_discount,A
+128,neutral,1291,1310.68,1089.66,2.0,0.45,2.45,Orange Juice (Generic)_price_display,NA
+128,surprise,1292,507.41,541.65,2.4,0.5599999999999999,2.96,Mango Juice_overall_packaging_redesign,A
+129,neutral,1293,537.21,204.03,1.8,0.5,2.3,NeuBisc Biscuits_product_flavor,B
+129,neutral,1294,628.19,245.73,2.4,0.5,2.9,NeuBisc Biscuits_promotional_badge,B
+129,neutral,1295,31.1,486.52,2.6,0.5,3.1,NeuBisc Biscuits_packaging_format,B
+129,neutral,1296,-830.09,422.32,2.6,0.4166666666666667,3.016667,NeuBisc Biscuits_product_imagery_vs_info,B
+129,neutral,1297,2627.72,223.43,2.6,0.45,3.05,NeuBisc Biscuits_color,NA
+130,neutral,1298,466.45,192.1,2.6,0.5,3.1,Cacao Symphony_health_claims_badges,B
+130,neutral,1299,199.36,387.1,2.6,0.45,3.05,Milk Chocolate_packaging_transparency,A
+130,neutral,1300,380.82,397.96,2.8,0.45,3.25,Choco Candy_price_discount,A
+130,neutral,1301,368.96,204.1,2.8,0.39999999999999997,3.2,Choco Lyra_packaging_format,C
+130,neutral,1302,631.51,294.23,2.8,0.5,3.3,Cocoa Bliss_pack_format,B
+130,neutral,1303,400.34,229.15,2.6,0.5,3.1,Cocoa Bliss_packaging_finish,A
+130,sad,1304,425.12,469.17,2.8,0.3499999999999999,3.15,Dark Choco_background_theme,B

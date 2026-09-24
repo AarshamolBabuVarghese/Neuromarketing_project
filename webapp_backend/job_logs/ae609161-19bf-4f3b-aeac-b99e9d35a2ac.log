@@ -1,0 +1,29 @@
+=== Step 1: Preprocessing ===
+Loaded 185 raw rows -> 185 clean rows
+Rows usable for gaze/AOI analysis: 185
+Saved to data/processed_sessions/unified_dataset_processed.csv
+
+=== Step 2: Analysis (descriptive stats + segmentation) ===
+Loaded 185 raw rows -> 185 clean rows
+Rows usable for gaze/AOI analysis: 185
+Saved to data/processed_sessions/unified_dataset_processed.csv
+Analysis complete. Saved to reports/analysis_summary.json
+
+=== Step 3: A/B Testing ===
+Loaded 185 raw rows -> 185 clean rows
+Rows usable for gaze/AOI analysis: 185
+Saved to data/processed_sessions/unified_dataset_processed.csv
+A/B test results saved to reports/ab_test_results.json
+
+=== Step 4: Client Report ===
+Loaded 185 raw rows -> 185 clean rows
+Rows usable for gaze/AOI analysis: 185
+Saved to data/processed_sessions/unified_dataset_processed.csv
+Analysis complete. Saved to reports/analysis_summary.json
+Loaded 185 raw rows -> 185 clean rows
+Rows usable for gaze/AOI analysis: 185
+Saved to data/processed_sessions/unified_dataset_processed.csv
+A/B test results saved to reports/ab_test_results.json
+Client report saved to reports/client_report.docx
+
+Done. Final deliverable: reports/client_report.docx

@@ -1,83 +1,107 @@
 {
   "engagement_score": [
     {
-      "variant_a": "A (Left)",
-      "variant_b": "B (Right)",
-      "mean_a": 4.459,
-      "mean_b": 3.897,
-      "p_value": 0.2544,
+      "variant_a": "A",
+      "variant_b": "B",
+      "mean_a": 2.04,
+      "mean_b": 2.394,
+      "p_value": 0.2685,
       "significant": false,
       "likely_better_variant": "no significant difference",
-      "n_a": 10,
-      "n_b": 5
+      "n_a": 62,
+      "n_b": 48
     },
     {
-      "variant_a": "A (Left)",
-      "variant_b": "C (Neutral)",
-      "note": "insufficient samples (need >= 3 per variant)",
-      "n_a": 10,
-      "n_b": 1
+      "variant_a": "A",
+      "variant_b": "C",
+      "mean_a": 2.04,
+      "mean_b": 2.781,
+      "p_value": 0.0169,
+      "significant": true,
+      "likely_better_variant": "C",
+      "n_a": 62,
+      "n_b": 41
     },
     {
-      "variant_a": "B (Right)",
-      "variant_b": "C (Neutral)",
-      "note": "insufficient samples (need >= 3 per variant)",
-      "n_a": 5,
-      "n_b": 1
+      "variant_a": "B",
+      "variant_b": "C",
+      "mean_a": 2.394,
+      "mean_b": 2.781,
+      "p_value": 0.2199,
+      "significant": false,
+      "likely_better_variant": "no significant difference",
+      "n_a": 48,
+      "n_b": 41
     }
   ],
   "emotion_score": [
     {
-      "variant_a": "A (Left)",
-      "variant_b": "B (Right)",
-      "mean_a": 0.679,
-      "mean_b": 0.497,
-      "p_value": 0.0861,
+      "variant_a": "A",
+      "variant_b": "B",
+      "mean_a": 0.521,
+      "mean_b": 0.515,
+      "p_value": 0.9059,
       "significant": false,
       "likely_better_variant": "no significant difference",
-      "n_a": 10,
-      "n_b": 5
+      "n_a": 62,
+      "n_b": 48
     },
     {
-      "variant_a": "A (Left)",
-      "variant_b": "C (Neutral)",
-      "note": "insufficient samples (need >= 3 per variant)",
-      "n_a": 10,
-      "n_b": 1
+      "variant_a": "A",
+      "variant_b": "C",
+      "mean_a": 0.521,
+      "mean_b": 0.537,
+      "p_value": 0.957,
+      "significant": false,
+      "likely_better_variant": "no significant difference",
+      "n_a": 62,
+      "n_b": 41
     },
     {
-      "variant_a": "B (Right)",
-      "variant_b": "C (Neutral)",
-      "note": "insufficient samples (need >= 3 per variant)",
-      "n_a": 5,
-      "n_b": 1
+      "variant_a": "B",
+      "variant_b": "C",
+      "mean_a": 0.515,
+      "mean_b": 0.537,
+      "p_value": 0.8495,
+      "significant": false,
+      "likely_better_variant": "no significant difference",
+      "n_a": 48,
+      "n_b": 41
     }
   ],
   "attention_time": [
     {
-      "variant_a": "A (Left)",
-      "variant_b": "B (Right)",
-      "mean_a": 3.78,
-      "mean_b": 3.4,
-      "p_value": 0.6577,
+      "variant_a": "A",
+      "variant_b": "B",
+      "mean_a": 1.519,
+      "mean_b": 1.879,
+      "p_value": 0.2798,
       "significant": false,
       "likely_better_variant": "no significant difference",
-      "n_a": 10,
-      "n_b": 5
+      "n_a": 62,
+      "n_b": 48
     },
     {
-      "variant_a": "A (Left)",
-      "variant_b": "C (Neutral)",
-      "note": "insufficient samples (need >= 3 per variant)",
-      "n_a": 10,
-      "n_b": 1
+      "variant_a": "A",
+      "variant_b": "C",
+      "mean_a": 1.519,
+      "mean_b": 2.244,
+      "p_value": 0.0125,
+      "significant": true,
+      "likely_better_variant": "C",
+      "n_a": 62,
+      "n_b": 41
     },
     {
-      "variant_a": "B (Right)",
-      "variant_b": "C (Neutral)",
-      "note": "insufficient samples (need >= 3 per variant)",
-      "n_a": 5,
-      "n_b": 1
+      "variant_a": "B",
+      "variant_b": "C",
+      "mean_a": 1.879,
+      "mean_b": 2.244,
+      "p_value": 0.2315,
+      "significant": false,
+      "likely_better_variant": "no significant difference",
+      "n_a": 48,
+      "n_b": 41
     }
   ]
 }

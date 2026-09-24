@@ -1,0 +1,4 @@
+# Extra packages needed for webapp_backend/app.py.
+# Everything else (Flask, flask-cors, pandas, streamlit) is already
+# in your existing project's requirements.txt / venv.
+PyJWT==2.9.0
